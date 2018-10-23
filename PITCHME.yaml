@@ -1,0 +1,11 @@
+theme : night
+
+layout : center-right
+
+highlight : ir-black
+
+code-line-numbers : true
+
+published : false
+
+footnote : "docopt: the command line arguments parser that will make you smile"
