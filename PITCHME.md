@@ -53,6 +53,13 @@ else:
 print(options, command, host, port)
 ```
 
+@[6-7]
+@[9-18]
+@[9-18]
+@[20-26]
+@[27-32]
+@[33-35]
+
 ---
 
 ```python
