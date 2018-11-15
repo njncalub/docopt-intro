@@ -117,6 +117,14 @@ Usage:
 
 ---
 
+# IEEE Std 1003.1
+
+---
+
+# POSIX
+
+---
+
 ```python
 """Usage:
     my_program tcp <host> <port> [--timeout=<seconds>]
@@ -134,14 +142,6 @@ print(docopt(__doc__, version='1.0.0rc2'))
 
 ---
 
-# IEEE Std 1003.1
-
-+++
-
-# POSIX
-
----
-
 ```
 docopt(doc[, argv][, help][, version])
 ```
@@ -149,6 +149,8 @@ docopt(doc[, argv][, help][, version])
 ---
 
 ```python
+args = docopt(__doc__, version='1.0.0rc2')
+
 args['add']
 args['<port>']
 args['--include']
