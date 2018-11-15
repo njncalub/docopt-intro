@@ -104,6 +104,19 @@ print(parser.parse_args())
 
 ---
 
+```
+Usage:
+    my_program tcp <host> <port> [--timeout=<seconds>]
+    my_program serial <port> [--baud=9600] [--timeout=<seconds>]
+    my_program (-h | --help | --version)
+```
+
+@[2]
+@[3]
+@[4]
+
+---
+
 ```python
 """Usage:
     my_program tcp <host> <port> [--timeout=<seconds>]
@@ -136,9 +149,9 @@ docopt(doc[, argv][, help][, version])
 ---
 
 ```python
-args['--include']
-args['<port>']
 args['add']
+args['<port>']
+args['--include']
 ```
 
 ---
