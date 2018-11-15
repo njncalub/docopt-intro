@@ -59,6 +59,7 @@ print(options, command, host, port)
 @[20-26]
 @[27-32]
 @[33-35]
+@[37]
 
 ---
 
@@ -87,14 +88,19 @@ parser_serial.add_argument("--timeout", nargs='?')
 print(parser.parse_args())
 ```
 
+@[6]
+@[8-10]
+@[12-15]
+@[17-20]
+@[22]
+
 ---
 
-```
-If you have to refer to the documentation
-every time you use a module, find (or build)
-a new module.
+### If you have to refer to the documentation
+### every time you use a module, find (or build)
+### a new module.
 
-- Kenneth Reitz
+*- Kenneth Reitz*
 ```
 
 ---
