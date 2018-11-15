@@ -53,6 +53,7 @@ else:
 print(options, command, host, port)
 ```
 
+@[1-5]
 @[6-7]
 @[9-18]
 @[9-18]
@@ -88,6 +89,7 @@ parser_serial.add_argument("--timeout", nargs='?')
 print(parser.parse_args())
 ```
 
+@[1-5]
 @[6]
 @[8-10]
 @[12-15]
@@ -113,11 +115,15 @@ from docopt import docopt
 print(docopt(__doc__, version='1.0.0rc2'))
 ```
 
+@[1-5]
+@[6]
+@[8]
+
 ---
 
 # IEEE Std 1003.1
 
----
++++
 
 # POSIX
 
@@ -219,11 +225,6 @@ Options:
   --doctest            run doctest on myself
 """
 args = docopt(__doc__, version=__version__)
-```
----
-
-```
-help message = usage + option's description
 ```
 
 ---
