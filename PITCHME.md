@@ -96,12 +96,9 @@ print(parser.parse_args())
 
 ---
 
-### If you have to refer to the documentation
-### every time you use a module, find (or build)
-### a new module.
+### If you have to refer to the documentation every time you use a module, find (or build) a new module.
 
 *- Kenneth Reitz*
-```
 
 ---
 
