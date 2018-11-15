@@ -4,7 +4,7 @@ layout : center-right
 
 highlight : ir-black
 
-code-line-numbers : true
+code-line-numbers : false
 
 published : false
 
